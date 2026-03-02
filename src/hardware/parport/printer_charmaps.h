@@ -17,10 +17,10 @@
  */
 
 typedef struct {
-	Bitu codepage;
-	const uint16_t* map;
+  Bitu codepage;
+  const uint16_t *map;
 } CHARMAP;
 
 extern const CHARMAP charmap[];
-extern const uint16_t codepages[15];
+extern const uint16_t codepages[16];
 extern const uint16_t intCharSets[15][12];
